@@ -1,6 +1,5 @@
-**Model Datasheet**:
+# Model Datasheet:
 
----
 
 ## Motivation
 
@@ -9,7 +8,6 @@
 - **Creator**: Anuj M S uploaded the dataset to Kaggle.
 - **Funding**: No funding source is specified; likely a personal or academic contribution.
 
----
 
 ## Composition
 
@@ -19,7 +17,6 @@
 - **Missing Data**: No explicit mention of missing data, but some folders may have inconsistent naming or labeling.
 - **Confidentiality**: The dataset contains publicly available car images and does not include personally identifiable information or sensitive content.
 
----
 
 ## Collection Process
 
@@ -27,7 +24,6 @@
 - **Sampling Strategy**: Not documented but appears to be a convenience sample.
 - **Time Frame**: The dataset was uploaded 6 years ago, collection dates are not provided.
 
----
 
 ## Preprocessing/Cleaning/Labeling
 
@@ -35,7 +31,7 @@
 - **Preprocessing**: No preprocessing is described. Users may need to resize, normalize or annotate images manually.
 - **Raw Data**: Only raw image files are provided; no preprocessed versions are included.
 
----
+
 
 ## Uses
 
@@ -53,18 +49,16 @@
 - **Unsuitable Uses**:
   - Should not be used for legal assessments, owner identification or cost estimation without additional data and validation.
 
----
 
 ## Distribution
 
 - **Availability**: Distributed via Kaggle.
 - **IP/ToU**: No explicit license is listed, users should follow Kaggle’s standard terms of use.
 
----
 
 ## Maintenance
 
 - **Maintainer**: Anuj M S (via Kaggle). No update schedule or contact information is provided.
 
----
+
 
