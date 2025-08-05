@@ -1,6 +1,5 @@
 # Model Card
 
----
 
 ## Model Description
 
@@ -22,7 +21,7 @@
 - A softmax activation is used in the output layer.  
 - Grad-CAM is integrated for interpretability.
 
----
+
 
 ## Performance
 
@@ -45,14 +44,15 @@
 **Confusion Matrix:**
 
 ```
-[[10  0]
- [ 2  2]]
+[10  0]
+[ 2  2]
 ```
 
 **Performance Summary:**  
+
 The model performs well in identifying car images, with perfect recall and strong precision. However, it struggles to consistently identify non-car images, missing half of them in the test set.
 
----
+
 
 ## Limitations
 
@@ -61,13 +61,14 @@ The model performs well in identifying car images, with perfect recall and stron
 - **Annotation Quality**: Labels are inferred from folder structure; no bounding boxes or segmentation masks are provided.
 - **Small Test Set**: Evaluation is based on a small number of samples (14), which may not reflect real-world performance.
 
----
+
 
 ## Trade-offs
 
 - **High Recall for Cars vs. Low Recall for Non-Cars**: The model prioritizes detecting car damage, which may lead to false negatives for non-car images.
 - **Interpretability vs. Complexity**: Grad-CAM improves transparency but adds computational overhead.
 - **Speed vs. Accuracy**: VGG16 is relatively heavy, faster models (e.g., MobileNet) may be preferred for real-time applications.
+
 
 
 
