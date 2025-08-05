@@ -1,4 +1,4 @@
-## **Car Damage Detection Using Deep Learning to Simplify Car Insurance Claim process **
+## Car Damage Detection Using Deep Learning to Simplify Car Insurance Claim process
 
 
 ## GOAL OF THE PROJECT  
@@ -8,7 +8,8 @@ The insurance agent handling your claim must then meticulously gather and store 
 This back-and-forth, coupled with the tedious nature of gathering and processing information, can lead to frustration for both the claimant and the insurance provider.
 To streamline and improve the car insurance claims process, Machine Learning, specifically Deep Learning and Computer Vision, can be leveraged to automate damage assessments and detect fraudulent claims.
 
-In addition, this model can be extended in building insurance 
+In addition, this model can be extended for use in building insurance by adapting it to detect and classify structural damage in property images, enabling automated claim processing, damage severity assessment, and fraud detection in residential and commercial insurance workflows
+
 
 ## PROCESS
 Users can submit car images via a chatbot or mobile app. The model then processes these images in four stages: 
@@ -16,7 +17,8 @@ Users can submit car images via a chatbot or mobile app. The model then processe
 2) Damage confirmation 
 3) Damage location identification (front, rear, side) and 
 4) Damage severity assessment (minor, moderate, severe) as per below flow:
-[]
+   
+![Alt text](workflow.jpg)
 
 The notebooks included in the repo covers only first part of the flow as clasifying uploaded image by user is a car or not to proceed for next checks.
 
@@ -44,14 +46,21 @@ Grad-CAM visualizations confirmed that the model focused on relevant vehicle reg
 
 ## CHALLENGES
 o	Non-clear images of car damage, along with variations in angle, lighting and resolution can significantly affect accurate image classification and damage assessment
+
 o	Since the data is image-based, not numeric, a robust and diverse dataset of images with clearly defined categories is crucial for effective model training as I have used very small dataset here
+
 o	While automation reduces human error, the model should be designed to flag specific situations requiring human review and intervention in case of any specific missing data
+
 
 ### NEXT ACTIONS
 o	Class balancing: Considering oversampling non-car images or using SMOTE to improve generalization.
+
 o	Error analysis: Reviewing the misclassified samples using Keras/Grad-CAM to understand model focus.
+
 o	Threshold tuning: Experiment with adjusting the decision threshold to reduce false positives.
+
 o	Model calibration: Use of techniques like Platt scaling or isotonic regression to improve confidence estimates.
 
 ## CONTACT DETAILS
+
 Feel free to reach out via [GitHub](https://github.com/gitpatil2025) or email me at gitanjalipatil2025@gmail.com for collaboration or feedback.
