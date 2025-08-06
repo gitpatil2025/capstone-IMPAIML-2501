@@ -1,4 +1,4 @@
-## Car Damage Detection Using Deep Learning to Simplify Car Insurance Claim process
+# Car Damage Detection Using Deep Learning to Simplify Car Insurance Claim process
 
 
 ## GOAL OF THE PROJECT  
@@ -60,7 +60,7 @@ o	Since the data is image-based, not numeric, a robust and diverse dataset of im
 o	While automation reduces human error, the model should be designed to flag specific situations requiring human review and intervention in case of any specific missing data
 
 
-### NEXT ACTIONS
+## NEXT ACTIONS
 o	Class balancing: Considering oversampling non-car images or using SMOTE to improve generalization.
 
 o	Error analysis: Reviewing the misclassified samples using Keras/Grad-CAM to understand model focus.
@@ -72,4 +72,5 @@ o	Model calibration: Use of techniques like Platt scaling or isotonic regression
 ## CONTACT DETAILS
 
 Feel free to reach out via [GitHub](https://github.com/gitpatil2025) or email me at gitanjalipatil2025@gmail.com for collaboration or feedback.
+
 
