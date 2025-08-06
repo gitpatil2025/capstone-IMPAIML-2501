@@ -31,6 +31,14 @@ The dataset is publicly available and does not include sensitive or personal inf
 ## MODEL  
 The model used is VGG16, a deep convolutional neural network known for its simplicity and strong performance in image classification tasks. VGG16 was fine-tuned on the car damage dataset to adapt its learned features to the specific task. Grad-CAM was integrated to visualize which parts of the image the model focuses on when predicting damage.
 
+### **IMPORTANT**
+
+Keras notebook is [here](imageiscarornot_using_tfkeras.ipynb) and easily viewable.
+
+Pytorch notebook size is little bigger and cannot viewed on GitHub, I tried to [zip](imageiscarornot_using_pytorchgradcam.zip) it and upload but not successful. 
+
+Please download either zip folder or [notebook](imageiscarornot_using_pytorchgradcam.ipynb) at local and view it [here](https://mybinder.org/v2/gh/gitpatil2025/capstone-IMPAIML-2501/1783ac43ddc29d71fc3445ae376da4b833d83d27?urlpath=lab%2Ftree%2Fimageiscarornot_using_pytorchgradcam.ipynb) online, sorry for the inconvenience caused.
+
 
 ## HYPERPARAMETER OPTIMISATION  
 Since the model is not retrained, traditional hyperparameter tuning (e.g., learning rate, batch size) is mostly not applicable at this stage. 
@@ -64,3 +72,4 @@ o	Model calibration: Use of techniques like Platt scaling or isotonic regression
 ## CONTACT DETAILS
 
 Feel free to reach out via [GitHub](https://github.com/gitpatil2025) or email me at gitanjalipatil2025@gmail.com for collaboration or feedback.
+
